@@ -256,6 +256,7 @@ a:hover {
   margin: 20px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 15px;
+  border: 2px black solid;
 }
 .home .content-section .cta .cta-title {
   width: 50%;
@@ -290,6 +291,7 @@ a:hover {
   width: 48%;
   padding-right: 1%;
   border-radius: 15px;
+  border: 2px black solid;
   background-color: #C84C09;
   padding: 10px;
 }
@@ -361,6 +363,7 @@ a:hover {
 }
 .home .content-testomonials .tests {
   background-color: rgba(200, 76, 9, 0.5);
+  border: 2px black solid;
   border-radius: 15px;
   margin: 15px;
   padding: 10px;
