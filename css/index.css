@@ -146,7 +146,10 @@ h5 {
 }
 h1 {
   font-size: 4rem;
+  letter-spacing: 0.0625em;
+  -webkit-text-stroke: 1px #C84C09;
   color: #C84C09;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 h2 {
   font-size: 3.2rem;
@@ -175,7 +178,7 @@ img {
   padding: 25px 0px 0px 0px;
   background-color: #0E0D0D;
   border-radius: 15px;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 20px;
 }
 a {
@@ -266,6 +269,7 @@ a:hover {
   align-items: center;
   padding: 5px;
   background-color: rgba(255, 255, 255, 0.5);
+  border: 1px black solid;
   border-radius: 15px;
 }
 .home .content-section .cta .cta-title h1 {
@@ -363,6 +367,156 @@ a:hover {
 }
 .home .content-testomonials .tests {
   background-color: rgba(200, 76, 9, 0.5);
+  filter: brightness(125%);
+  border: 2px black solid;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+}
+.home .content-testomonials .tests .test-text {
+  text-align: left;
+}
+.home .about-section {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .home .about-section {
+    flex-direction: column;
+  }
+}
+.home .about-section .about {
+  background: url(../img/hardhat.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+  margin: 0px 0px 20px 0px;
+  border-radius: 15px;
+}
+.home .about-section .top {
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+}
+.home .about-section .cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  border: 2px black solid;
+}
+.home .about-section .cta .cta-title {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px black solid;
+  border-radius: 15px;
+}
+.home .about-section .cta .cta-title h1 {
+  font-size: 50px;
+}
+.home .about-section .cta .cta-title button {
+  border: 1px solid black;
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 7px;
+  background-color: gray;
+}
+.home .about-section .cta .cta-title button:hover {
+  background-color: #C84C09;
+}
+.home .about-section .angle {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+}
+.home .about-section .text-content {
+  width: 48%;
+  padding-right: 1%;
+  border-radius: 15px;
+  border: 2px black solid;
+  background-color: #C84C09;
+  padding: 10px;
+}
+@media (max-width: 500px) {
+  .home .about-section .text-content {
+    width: 100%;
+    padding: 10px 0px;
+  }
+}
+.home .about-section .img-content {
+  width: 48%;
+  padding-left: 1%;
+}
+@media only screen and (max-width: 500px) {
+  .home .about-section .img-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+.home .about-section .img-content img {
+  border-radius: 10px;
+}
+.home .inverse-content {
+  padding-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .home .inverse-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+}
+.home .inverse-content .text-content {
+  padding-left: 1%;
+  padding-right: 0;
+}
+@media (max-width: 500px) {
+  .home .inverse-content .text-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+}
+.home .inverse-content .img-content {
+  padding-right: 1%;
+  padding-left: 0;
+}
+@media (max-width: 500px) {
+  .home .inverse-content .img-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+}
+.home .content-testomonials {
+  margin: 0 auto 30px;
+  border-radius: 15px;
+  background: url(../img/weld.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.home .content-testomonials img {
+  border-radius: 10px;
+}
+.home .content-testomonials .tests {
+  background-color: rgba(200, 76, 9, 0.5);
+  filter: brightness(125%);
   border: 2px black solid;
   border-radius: 15px;
   margin: 15px;
