@@ -1,0 +1,156 @@
+.home {
+
+  .content-section {
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @media @mobile {
+      flex-direction: column;
+    }
+
+    .welcome {
+      background: url(../img/chainsaw.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 500px;
+      margin: 0px 0px 20px 0px;
+      border-radius: 15px;
+    }
+
+    .top {
+      align-items: center;
+      text-align: center;
+      width: 100vw;
+  }
+
+
+  .cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 15px;
+  }
+  
+  .cta .cta-title {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(255,255,255,.5);
+    border-radius: 15px;
+  }
+  
+  .cta .cta-title h1 {
+    font-size: 50px;
+  }
+  
+  .cta .cta-title button {
+    border: 1px solid black;
+    padding: 10px 30px;
+    margin: 20px;
+    border-radius: 7px;
+    background-color: gray;
+  }
+
+  .cta .cta-title button:hover{
+    background-color: #C84C09;
+  }
+  .angle {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+  }
+    
+    .text-content {
+      width: 48%;
+      padding-right: 1%;
+      border-radius: 15px;
+      background-color: #C84C09;
+      padding: 10px;
+      @media @mobile {
+        width: 100%;
+        padding: 10px 0px;
+      }
+    }
+
+    .img-content {
+      width: 48%;
+      padding-left: 1%;
+      @media only screen and (max-width:500px) {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+
+      img {
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .inverse-content {
+    padding-bottom: 30px;
+    @media @mobile {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+    }
+
+    .text-content {
+      padding-left: 1%;
+      padding-right: 0;
+      @media @mobile {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        // order: 1;
+      }
+    }
+
+    .img-content {
+      padding-right: 1%;
+      padding-left: 0;
+      @media @mobile {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        // order: 0;
+      }
+    }
+  }
+
+  .content-testomonials {
+    margin: 0 auto 30px;
+    border-radius: 15px;
+    background: url(../img/weld.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+
+    img {
+      border-radius: 10px;
+    }
+  }
+
+  .content-testomonials .tests {
+    background-color: rgba(200, 76, 9, 0.5);
+    border-radius: 15px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .content-testomonials .tests .test-text {
+    text-align: left;
+  }
+}
