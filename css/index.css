@@ -287,6 +287,7 @@ a:hover {
 }
 .home .content-section .cta .cta-title button:hover {
   background-color: #C84C09;
+  font-size: 1.5rem;
 }
 .home .content-section .angle {
   border-radius: 50%;
@@ -307,6 +308,19 @@ a:hover {
     width: 100%;
     padding: 10px 0px;
   }
+}
+.home .content-section .text-content ul {
+  margin: 5px;
+}
+.home .content-section .text-content button {
+  border: 1px solid black;
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 7px;
+  background-color: gray;
+}
+.home .content-section .text-content button:hover {
+  font-size: 1.7rem;
 }
 .home .content-section .img-content {
   width: 48%;
@@ -381,7 +395,7 @@ a:hover {
   text-align: left;
 }
 .home .about-section {
-  margin: 30px 0;
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -396,7 +410,6 @@ a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
-  margin: 0px 0px 20px 0px;
   border-radius: 15px;
 }
 .home .about-section .top {
@@ -430,6 +443,7 @@ a:hover {
 }
 .home .about-section .cta .cta-title a {
   color: black;
+  padding: 0px;
 }
 .home .about-section .cta .cta-title a:hover {
   color: #C84C09;
@@ -441,6 +455,13 @@ a:hover {
   width: 300px;
   margin: 5px;
 }
+.home .about-section .profile {
+  border: 2px black solid;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin: 5px;
+}
 .home .about-section .text-content {
   width: 48%;
   padding-right: 1%;
@@ -448,6 +469,7 @@ a:hover {
   border: 2px black solid;
   background-color: #C84C09;
   padding: 10px;
+  margin-top: 10px;
 }
 @media (max-width: 500px) {
   .home .about-section .text-content {
@@ -455,7 +477,16 @@ a:hover {
     padding: 10px 0px;
   }
 }
+.home .about-section .text-content a {
+  color: black;
+  padding: 0px;
+}
+.home .about-section .text-content a:hover {
+  color: white;
+}
 .home .about-section .img-content {
+  display: flex;
+  justify-content: center;
   width: 48%;
   padding-left: 1%;
 }
@@ -467,10 +498,11 @@ a:hover {
   }
 }
 .home .about-section .img-content img {
-  border-radius: 10px;
-}
-.home .inverse-content {
-  padding-bottom: 30px;
+  border: 2px black solid;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin: 5px;
 }
 @media (max-width: 500px) {
   .home .inverse-content {
@@ -501,29 +533,13 @@ a:hover {
     flex-direction: column-reverse;
   }
 }
-.home .content-testomonials {
-  margin: 0 auto 30px;
-  border-radius: 15px;
-  background: url(../img/weld.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 600px;
-  padding: 10px;
+.home .inverse-content .profile-section {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.home .content-testomonials img {
-  border-radius: 10px;
-}
-.home .content-testomonials .tests {
-  background-color: rgba(200, 76, 9, 0.5);
-  filter: brightness(125%);
-  border: 2px black solid;
-  border-radius: 15px;
-  margin: 15px;
-  padding: 10px;
-  text-align: center;
-}
-.home .content-testomonials .tests .test-text {
-  text-align: left;
+@media (max-width: 500px) {
+  .home .inverse-content .profile-section {
+    flex-direction: column;
+  }
 }
