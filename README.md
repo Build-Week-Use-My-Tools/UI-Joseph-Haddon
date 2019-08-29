@@ -24,9 +24,12 @@
 #     Hanny Naibaho
 #     Theme Photos
 
-# Technologies & Tools
+# Technologies & Tools -
 #   HTML
 #   CSS / LESS
 #   Github
 #   Netlify
 #   VS Code
+
+# Deployed URL - 
+# https://usemytools-jh.netlify.com/
