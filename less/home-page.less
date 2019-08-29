@@ -45,6 +45,10 @@
     background-color: rgba(255,255,255,.5);
     border: 1px black solid;
     border-radius: 15px;
+    @media only screen and (max-width:500px) {
+      margin: 10px;
+      width: 75%;
+    }
   }
   
   .cta .cta-title h1 {
@@ -68,6 +72,9 @@
     height: 300px;
     width: 300px;
     margin: 5px;
+    @media only screen and (max-width:500px) {
+      display: none;
+    }
   }
     
     .text-content {
@@ -78,8 +85,9 @@
       background-color: #C84C09;
       padding: 10px;
       @media @mobile {
-        width: 100%;
+        width: 95%;
         padding: 10px 0px;
+        margin: auto;
       }
     }
 
@@ -106,10 +114,15 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        margin: auto;
+        margin-top: 10px;
       }
 
       img {
         border-radius: 10px;
+        @media only screen and (max-width:500px) {
+          margin: auto;
+        }
       }
     }
   }
@@ -129,7 +142,6 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column-reverse;
-        // order: 1;
       }
     }
 
@@ -140,7 +152,6 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column-reverse;
-        // order: 0;
       }
     }
   }
@@ -159,6 +170,12 @@
 
     img {
       border-radius: 10px;
+    }
+
+    @media only screen and (max-width:500px) {
+      width: 95%;
+      margin: auto;
+      margin-bottom: 10px;
     }
   }
 

@@ -275,6 +275,12 @@ a:hover {
   border: 1px black solid;
   border-radius: 15px;
 }
+@media only screen and (max-width: 500px) {
+  .home .content-section .cta .cta-title {
+    margin: 10px;
+    width: 75%;
+  }
+}
 .home .content-section .cta .cta-title h1 {
   font-size: 50px;
 }
@@ -295,6 +301,11 @@ a:hover {
   width: 300px;
   margin: 5px;
 }
+@media only screen and (max-width: 500px) {
+  .home .content-section .angle {
+    display: none;
+  }
+}
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
@@ -305,8 +316,9 @@ a:hover {
 }
 @media (max-width: 500px) {
   .home .content-section .text-content {
-    width: 100%;
+    width: 95%;
     padding: 10px 0px;
+    margin: auto;
   }
 }
 .home .content-section .text-content ul {
@@ -331,10 +343,17 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
   }
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .home .content-section .img-content img {
+    margin: auto;
+  }
 }
 .home .inverse-content {
   padding-bottom: 30px;
@@ -381,6 +400,13 @@ a:hover {
 }
 .home .content-testomonials img {
   border-radius: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .home .content-testomonials {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
 }
 .home .content-testomonials .tests {
   background-color: rgba(200, 76, 9, 0.5);
