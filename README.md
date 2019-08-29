@@ -13,7 +13,8 @@
 #   Back End: Christina Delligatta
 
 # Attributions - 
-#   Fonts: https://fontawesome.com
+#   Fonts-Icon: https://fontawesome.com
+#   Fonts-Text: https://fonts.google.com/
 #   Images: https://unsplash.com
 #     Daniel McCullough
 #     Silvia Brazzoduro
